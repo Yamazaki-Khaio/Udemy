@@ -1,13 +1,19 @@
 {
-    "user": [{
-        "id": 1,
-        "name": "John Doe",
-        "email": "John@email.com"
-
-    },{
-        "id": 2,
-        "name": "Jane Doe",
-        "email": "Jane@email.com"
+  "user": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "John@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "Jane@email.com"
+    },
+    {
+      "name": "Mazza é boiola",
+      "email": "Mazza_da_a_bundinha@Boiola.com",
+      "id": 3
     }
-]
+  ]
 }

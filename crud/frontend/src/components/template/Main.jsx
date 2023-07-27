@@ -1,13 +1,14 @@
 import './Main.css'
 import Header from './Header'
-import Nav from './Nav'
+
 import React, { Component } from 'react'
 
 export default props =>
     <React.Fragment>
-        <Header />
-        <Nav />
+        <Header {...props} />        
         <main className="content container-fluid">
-            Conteúdo
+            <div className="p-3 mt-3">
+                {props.children}
+            </div>           
         </main>
     </React.Fragment>
