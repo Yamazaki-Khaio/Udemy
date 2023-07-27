@@ -21,6 +21,13 @@ export default class UserCrud extends Component {
 
     state = { ...initialState };
 
+    componentWillMount(){
+        axios(baseUrl).then ((resp) => {
+            this.setState({ list: resp.data });
+        }
+        );
+    }
+
     clear() {
         this.setState({ user: initialState.user });
     }
@@ -154,6 +161,8 @@ export default class UserCrud extends Component {
         });
     }
 
+
+    
 
 
     render() {
