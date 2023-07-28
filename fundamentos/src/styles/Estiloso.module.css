@@ -1,0 +1,247 @@
+.roxo {
+    background-color: blueviolet   ;
+    color: white;
+    }
+
+    .roxo h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .roxo .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .roxo .container p {
+        font-size: 1.5rem;
+    }
+
+    .roxo .container button {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.25rem;
+        background-color: white;
+        color: blueviolet;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .roxo .container button:hover {
+        background-color: blueviolet;
+        color: white;
+    }
+
+    .roxo .container button:focus {
+        outline: none;
+        box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5);
+    }
+
+    .roxo .container button:active {
+        transform: translateY(0.125rem);
+    }
+
+    .roxo .container button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .roxo .container button + button {
+        margin-left: 1rem;
+    }
+
+    .roxo .container button.primary {
+        background-color: blueviolet;
+        color: white;
+    }
+
+    .roxo .container button.primary:hover {
+        background-color: white;
+        color: blueviolet;
+    }
+
+    .roxo .container button.primary:focus {
+        box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5);
+    }
+
+    .roxo .container button.primary:active {
+        transform: translateY(0.125rem);
+    }
+
+    .roxo .container button.primary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .roxo .container button.primary + button {
+        margin-left: 1rem;
+    }
+
+    .roxo .container button.secondary {
+        background-color: white;
+        color: blueviolet;
+    }
+
+    .roxo .container button.secondary:hover {
+        background-color: blueviolet;
+        color: white;
+    }
+
+    .roxo .container button.secondary:focus {
+        box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5);
+    }
+
+    .roxo .container button.secondary:active {
+        transform: translateY(0.125rem);
+    }
+
+    .roxo .container button.secondary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .roxo .container button.secondary + button {
+        margin-left: 1rem;
+    }
+
+    .roxo .container button.tertiary {
+        background-color: transparent;
+        color: blueviolet;
+    }
+
+    .roxo .container button.tertiary:hover {
+        background-color: blueviolet;
+        color: white;
+    }
+
+    .roxo .container button.tertiary:focus {
+        box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5);
+    }
+
+    .roxo .container button.tertiary:active {
+        transform: translateY(0.125rem);
+    }
+
+    .roxo .container button.tertiary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .roxo .container button.tertiary + button {
+        margin-left: 1rem;
+    }
+    
+    .roxo .container button.quaternary {
+        background-color: transparent;
+        color: white;
+    }
+
+    .roxo .container button.quaternary:hover {
+        background-color: white;
+        color: blueviolet;
+    }
+
+    .roxo .container button.quaternary:focus {
+        box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5);
+    }
+
+    .roxo .container button.quaternary:active {
+        transform: translateY(0.125rem);
+    }
+
+    .roxo .container button.quaternary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .roxo .container button.quaternary + button {
+        margin-left: 1rem;
+    }
+
+    .roxo .container button.quinary {
+        background-color: transparent;
+        color: white;
+    }
+
+    .roxo .container button.quinary:hover {
+        background-color: white;
+        color: blueviolet;
+    }
+
+    .roxo .container button.quinary:focus {
+        box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5);
+    }
+
+    .roxo .container button.quinary:active {
+        transform: translateY(0.125rem);
+    }
+
+    .roxo .container button.quinary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .roxo .container button.quinary + button {
+        margin-left: 1rem;
+    }
+
+    .roxo .container button.senary {
+        background-color: transparent;
+        color: white;
+    }
+
+    .roxo .container button.senary:hover {
+        background-color: white;
+        color: blueviolet;
+    }
+
+    .roxo .container button.senary:focus {
+        box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5);
+    }
+
+    .roxo .container button.senary:active {
+        transform: translateY(0.125rem);
+    }
+
+    .roxo .container button.senary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .roxo .container button.senary + button {
+        margin-left: 1rem;
+    }
+
+    .roxo .container button.septenary {
+        background-color: transparent;
+        color: white;
+    }
+
+    .roxo .container button.septenary:hover {
+        background-color: white;
+        color: blueviolet;
+    }
+
+    .roxo .container button.septenary:focus {
+        box-shadow: 0 0 0 0.25rem rgba(138, 43, 226, 0.5);
+    }
+
+    .roxo .container button.septenary:active {
+        transform: translateY(0.125rem);
+    }
+
+    .roxo .container button.septenary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .roxo .container button.septenary + button {
+        margin-left: 1rem;
+    }
+
+    

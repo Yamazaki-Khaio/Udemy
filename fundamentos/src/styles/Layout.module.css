@@ -1,0 +1,33 @@
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #777;
+}
+
+
+.cabecalho a {
+    color: crimson;
+    padding: 5px 12px;
+    border-radius: 5%;
+}
+
+.conteudo {
+    padding: 25px;
+    height: 100%;
+    display: flex;
+}
+
+.rodape {
+    padding: 10px 20px;
+    background-color: #777;
+    color: white;
+    text-align: center;
+}
